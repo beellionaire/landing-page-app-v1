@@ -2,26 +2,26 @@ export const navLinks = [
   {
     id: 1,
     url: "#",
-    label: "Beranda",
+    label: "Keunggulan Kami",
   },
   {
     id: 2,
-    url: "#",
-    label: "Harga Layanan",
+    url: "/Reason",
+    label: "Layanan",
   },
   {
     id: 3,
     url: "#",
-    label: "Desain",
+    label: "Portofolio",
   },
   {
     id: 4,
     url: "#",
-    label: "Portofolio",
+    label: "Harga",
   },
   {
     id: 5,
     url: "#",
-    label: "Kontak",
+    label: "FAQ",
   },
 ];

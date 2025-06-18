@@ -1,7 +1,9 @@
+import Home from "@/components/Home/Home";
+
 const Homepage = () => {
   return (
     <div>
-      <h1 className="text-blue-400"></h1>
+      <Home />
     </div>
   );
 };
