@@ -52,7 +52,7 @@ const Nav = ({ openNav }: Props) => {
 
         {/* Button */}
         <div className="flex items-center space-x-4">
-          <ButtonRightArrow text="Hubungi Kami" />
+          <ButtonRightArrow text="Hubungi Kami" classname="lg:block"/>
 
           {/* Burger Menu */}
           <HiBars3BottomRight

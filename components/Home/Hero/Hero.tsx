@@ -9,7 +9,7 @@ const Hero = () => {
           {/* Text Content */}
           <div>
             {/* Top */}
-            <div className="w-fit py-1.5 px-2 md:px-5 rounded-full shadow-md flex items-center space-x-3 bg-white hover:transform hover:scale-105 transition-all duration-300">
+            <div className="w-fit py-1.5 px-2 md:px-5 rounded-full shadow-md flex items-center space-x-3 bg-white hover:transform hover:-rotate-5 transition-all duration-300">
               <div className="px-3 py-1 md:px-5 md:py-1 rounded-full bg-blue-700 md:text-base sm:text-sm text-xs text-white">
                 <p className="font-bold">FYI</p>
               </div>

@@ -1,7 +1,12 @@
-const ButtonRightArrow = ({ text }: { text: string }) => {
+type Props = {
+  text: string;
+  classname?: string;
+};
+
+const ButtonRightArrow = ({ text, classname = "" }: Props) => {
   return (
     <a
-      className="group relative inline-flex items-center overflow-hidden rounded-sm bg-indigo-600 px-8 py-3 text-white focus:ring-3 focus:outline-hidden"
+      className={`${classname} group relative items-center overflow-hidden rounded-sm bg-indigo-600 px-8 py-3 text-white focus:ring-3 focus:outline-hidden hidden`}
       href="#"
     >
       <span className="absolute -end-full transition-all group-hover:end-4">

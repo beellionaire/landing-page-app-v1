@@ -8,13 +8,13 @@ const Faq = () => {
         <span className="text-4xl md:text-5xl text-blue-400">Inspira</span>
         Site
       </h1>
-      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-4xl lg:px-8">
         <div className="flow-root">
           <div className="-my-4 flex flex-col divide-y divide-gray-200">
             <details className="group py-4 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex items-center justify-between gap-1.5 text-gray-900">
                 <h2 className="text-lg font-medium">
-                  Lorem ipsum dolor sit amet consectetur adipisicing?
+                  Apa itu jasa pembuatan website?
                 </h2>
 
                 <svg
@@ -34,17 +34,18 @@ const Faq = () => {
               </summary>
 
               <p className="pt-4 text-gray-900">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-                veritatis molestias culpa in, recusandae laboriosam neque
-                aliquid libero nesciunt voluptate dicta quo officiis explicabo
-                consequuntur distinctio corporis earum similique!
+                Layanan pembuatan website kami menyediakan solusi lengkap untuk
+                merancang dan mengembangkan website profesional, mulai dari
+                company profile hingga toko online menggunakan platform unggulan
+                seperti WordPress dan teknologi eCommerce terkini.
               </p>
             </details>
 
             <details className="group py-4 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex items-center justify-between gap-1.5 text-gray-900">
                 <h2 className="text-lg font-medium">
-                  Lorem ipsum dolor sit amet consectetur adipisicing?
+                  Berapa lama waktu yang dibutuhkan untuk menyelesaikan proyek
+                  jasa pembuatan website?
                 </h2>
 
                 <svg
@@ -64,17 +65,17 @@ const Faq = () => {
               </summary>
 
               <p className="pt-4 text-gray-900">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-                veritatis molestias culpa in, recusandae laboriosam neque
-                aliquid libero nesciunt voluptate dicta quo officiis explicabo
-                consequuntur distinctio corporis earum similique!
+                Waktu pengerjaan bergantung pada kompleksitas proyek. Umumnya,
+                website dapat diselesaikan dalam 2–4 minggu. Untuk proyek yang
+                lebih kompleks, durasinya bisa lebih lama menyesuaikan
+                kebutuhan.
               </p>
             </details>
 
             <details className="group py-4 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex items-center justify-between gap-1.5 text-gray-900">
                 <h2 className="text-lg font-medium">
-                  Lorem ipsum dolor sit amet consectetur adipisicing?
+                  Tools apa yang digunakan untuk membuat website?
                 </h2>
 
                 <svg
@@ -94,10 +95,10 @@ const Faq = () => {
               </summary>
 
               <p className="pt-4 text-gray-900">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-                veritatis molestias culpa in, recusandae laboriosam neque
-                aliquid libero nesciunt voluptate dicta quo officiis explicabo
-                consequuntur distinctio corporis earum similique!
+                Kami menggunakan WordPress sebagai platform utama karena
+                fleksibilitas dan kemudahan penggunaannya. Dengan WordPress,
+                Anda dapat mengelola konten dengan mudah serta mengembangkan
+                situs sesuai kebutuhan di masa depan.
               </p>
             </details>
           </div>

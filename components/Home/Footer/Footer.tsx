@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-white">
-        <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
+        <div className="mx-auto w-[80%] space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 text-center mt-2">
               <span className="text-2xl md:text-3xl text-blue-400">
@@ -130,7 +130,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 border-t border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16">
+          <div className="grid grid-cols-1 gap-8 border-t border-gray-300 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16">
             <div>
               <p className="font-medium text-gray-900">Services</p>
 
