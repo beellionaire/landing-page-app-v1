@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-// import Contact from "./Contact/Contact";
+
 import Faq from "./Faq/Faq";
 import Feature from "./Feature/Feature";
 import Footer from "./Footer/Footer";
@@ -39,7 +39,6 @@ const Home = () => {
       <Pricing />
       <Testimonials />
       <Faq />
-      {/* <Contact/> */}
       <Footer />
     </div>
   );

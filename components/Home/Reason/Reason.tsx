@@ -2,7 +2,7 @@ import ReasonCard from "./ReasonCard";
 
 const Reason = () => {
   return (
-    <div className="pt-16 pb-0">
+    <div className="pt-16 pb-0 scroll-mt-28" id="reason">
       <h1 className="mt-6 text-4xl md:text-5xl font-bold text-center">
         Kenapa Harus Buat Website di
       </h1>

@@ -13,4 +13,8 @@
   .nav__link:hover::after {
     @apply scale-x-100;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }

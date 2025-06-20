@@ -1,6 +1,6 @@
 const Faq = () => {
   return (
-    <div className="pt-16 pb-16 bg-slate-50">
+    <div className="pt-16 pb-16 bg-slate-50 scroll-mt-28" id="faq">
       <h1 className="mt-6 text-4xl md:text-5xl font-bold text-center ">
         Pertanyaan Seputar
       </h1>

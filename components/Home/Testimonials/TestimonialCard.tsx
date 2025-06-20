@@ -13,7 +13,7 @@ const TestimonialCard = ({ name, images, job, desc }: Props) => {
   return (
     <div className="w-full lg:w-[90%] relative mx-auto p-9 bg-white shadow-xl rounded-xl">
       <div>
-        <FaQuoteLeft className="w-14 h-14 opacity-10 absolute top-8" />
+        <FaQuoteLeft className="w-8 h-8 absolute top-8 text-blue-950" />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 items-center">
         {/* Text Content */}

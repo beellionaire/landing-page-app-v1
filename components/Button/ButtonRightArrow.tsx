@@ -1,13 +1,14 @@
 type Props = {
   text: string;
+  href?: string;
   classname?: string;
 };
 
-const ButtonRightArrow = ({ text, classname = "" }: Props) => {
+const ButtonRightArrow = ({ text, classname = "", href = "" }: Props) => {
   return (
     <a
       className={`${classname} group relative items-center overflow-hidden rounded-sm bg-indigo-600 px-8 py-3 text-white focus:ring-3 focus:outline-hidden hidden`}
-      href="#"
+      href={href}
     >
       <span className="absolute -end-full transition-all group-hover:end-4">
         <svg

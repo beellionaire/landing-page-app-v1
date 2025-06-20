@@ -1,6 +1,6 @@
 const Portfolio = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div className="pt-16 pb-16 scroll-mt-28" id="portfolio">
       <h1 className="mt-6 text-4xl md:text-5xl font-bold text-center">
         Proyek Unggulan Kami
       </h1>

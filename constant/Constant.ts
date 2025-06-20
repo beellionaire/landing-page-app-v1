@@ -1,27 +1,27 @@
 export const navLinks = [
   {
     id: 1,
-    url: "#",
+    url: "#reason",
     label: "Keunggulan Kami",
   },
   {
     id: 2,
-    url: "/Reason",
+    url: "#services",
     label: "Layanan",
   },
   {
     id: 3,
-    url: "#",
+    url: "#portfolio",
     label: "Portofolio",
   },
   {
     id: 4,
-    url: "#",
+    url: "#pricing",
     label: "Harga",
   },
   {
     id: 5,
-    url: "#",
+    url: "#faq",
     label: "FAQ",
   },
 ];

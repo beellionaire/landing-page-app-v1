@@ -34,10 +34,12 @@ const Nav = ({ openNav }: Props) => {
     >
       <div className="flex items-center justify-between h-full w-[90%] xl:w-[80%] mx-auto ">
         {/* LOGO */}
-        <h1 className="text-3xl md:text-4xl font-extrabold text-slate-800">
-          <span className="text-3xl md:text-4xl text-blue-400">Inspira</span>
-          Site
-        </h1>
+        <a href="#">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-slate-800">
+            <span className="text-3xl md:text-4xl text-blue-400">Inspira</span>
+            Site
+          </h1>
+        </a>
 
         {/* Navlinks */}
         <div className="hidden lg:flex items-center space-x-10">
@@ -52,7 +54,11 @@ const Nav = ({ openNav }: Props) => {
 
         {/* Button */}
         <div className="flex items-center space-x-4">
-          <ButtonRightArrow text="Hubungi Kami" classname="lg:block"/>
+          <ButtonRightArrow
+            text="Hubungi Kami"
+            classname="lg:block"
+            href="/contact"
+          />
 
           {/* Burger Menu */}
           <HiBars3BottomRight
